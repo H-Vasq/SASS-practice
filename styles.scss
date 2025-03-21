@@ -1,42 +1,35 @@
-$new-padding: 1.5%;
-$text-alignment: center;
-
 body {
-    background-color: #111;
+    background-color: #b99090;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    }
+}
 
-    h1 {
-        color: rgb(170, 25, 80);
-        font-size: 2.5rem;
-        text-align: $text-alignment;
+nav {
+    ul {
+        list-style: none;
+        margin: 0 4%;
+        padding: 0
     }
-
-    .para1 {
-        color: goldenrod;
-        padding: $new-padding;
-        font-size: 1.2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    li {
+        display: inline-block;
+        position: relative;
+        top: 40px;
+        left: 145px;
     }
-
-    .para2 {
-        color: rgb(169, 165, 207);
-        padding: 2%;
-        font-size: 1.2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    a {
+        color: #fff;
+        display: block;
+        padding: 8px 12px;
+        border-radius: 5%;
+        text-decoration: none;
     }
-
-    .para3 {
-        color: rgb(59, 203, 34);
-        padding: 2%;
-        font-size: 1.2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    a:hover,a:focus{
+        transition: 1s linear;
+        background-color: #0156df;
     }
-    
-    .para4 {
-        color: rgb(210, 16, 94);
-        padding: 2%;
-        font-size: 1.2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    a:active{
+        background-color: rgb(255,0,0);
+        border-color: #666;
+        color: #efefef;
     }
+}
