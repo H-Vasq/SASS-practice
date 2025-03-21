@@ -1,33 +1,50 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #b99090;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 4%;
-  padding: 0;
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #2a8df6;
 }
-nav li {
-  display: inline-block;
-  position: relative;
-  top: 40px;
-  left: 145px;
+
+#form {
+  max-width: 500px;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin: auto;
+  border: #2a8df6 solid 1px;
 }
-nav a {
-  color: #fff;
-  display: block;
-  padding: 8px 12px;
-  border-radius: 5%;
-  text-decoration: none;
+
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
 }
-nav a:hover, nav a:focus {
-  transition: 1s linear;
-  background-color: #0156df;
+
+label, input {
+  width: 60%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
 }
-nav a:active {
-  background-color: rgb(255, 0, 0);
-  border-color: #666;
-  color: #efefef;
+
+label {
+  text-align: right;
+  width: 30%;
+}
+
+input {
+  border: 2px solid #aaa;
+  border-radius: 2%;
 }/*# sourceMappingURL=styles.css.map */
